@@ -1,4 +1,4 @@
-Guess My Number generates a random number between 1 and 20 and the player must guess the right number in as few a guesses as possible.
+Guess The Number generates a random number between 1 and 20 and the player must guess the right number in as few a guesses as possible.
 
 This project uses simple DOM Manipulation in order to achieve it's purpose.
 
