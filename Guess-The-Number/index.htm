@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Guess My Number</h1>
+      <p>
+        Welcome! I have developed a game for you. Let's say I have a
+        <em>random</em> number in my mind and it is upto you to guess it in as
+        few guesses as possible. So are you ready? If so, then please enter your
+        guess in the field given below.
+      </p>
+    </header>
+    <hr />
+    <main>
+      <p class="guess">Start guessing...</p>
+      <p class="secret">
+        <span id="secretNumber">?</span>
+      </p>
+      <div class="chance">Chances Left 💚 : <span id="score">20</span></div>
+      <div class="highscore">High-Score 🥇 : <span id="high">0</span></div>
+      <label
+        >Enter your guess: <br /><input
+          type="number"
+          class="input"
+          max="20"
+          min="0"
+      /></label>
+      <div class="btn">
+        <button class="check">Check!</button>
+        <button class="reset">Reset</button>
+      </div>
+    </main>
+    <script src="guess.js"></script>
+  </body>
+</html>
