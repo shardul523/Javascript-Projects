@@ -1,0 +1,6 @@
+Made Using - HTML, CSS and Javascript
+
+A web application to track one's workouts and maintain a record of it.
+
+Implemented using the Geolocation API as well as Leaflet.js library, this application stores user information on the local storage rather than a backend server.
+
